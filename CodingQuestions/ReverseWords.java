@@ -2,8 +2,9 @@
 
 public class ReverseWords {
     public static void main(String[] args) {
-        String str = "My name is Aman";
+        String str = "My name is Aman and he is a very good boy in the world";
         String[] words = str.split(" ");
+        System.out.println("Number of words in the String are: " + words.length);
         String reverseString = "";
 
         for(String word : words){
