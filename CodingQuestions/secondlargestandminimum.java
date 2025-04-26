@@ -16,8 +16,6 @@ public class secondlargestandminimum {
                 }
             }
         }
-        
-
 
         System.out.println("Second largest number: " + arr[arr.length-2]);
         System.out.println("second minimum number: " + arr[1]);

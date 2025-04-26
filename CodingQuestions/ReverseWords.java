@@ -19,3 +19,28 @@ public class ReverseWords {
         System.out.println("The reverse words in String: " + reverseString);
     }
 }
+
+//Another Approach: 
+// class Main {
+//     public static void main(String[] args) {
+//         String input = "Aman Kumar Giri Goswami";
+//         String[] words = input.split(" ");
+//         String revWords = "";
+//         String revStringFinal = "";
+        
+//         for(int i=0;i<words.length;i++){
+//             revWords = revString(words[i]);
+//             revStringFinal += revWords + " ";
+//         }
+//         System.out.println("The Result is: " + revStringFinal);
+//     }
+    
+//     //function to reverse the string
+//     public static String revString(String str){
+//         String revResult = "";
+//         for(int i=str.length()-1;i>=0;i--){
+//             revResult += str.charAt(i);
+//         }
+//         return revResult;
+//     }
+// }

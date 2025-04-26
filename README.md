@@ -46,6 +46,3 @@ Swapping and Shifting
 Other General Problems  
 30. RemoveSpecialCharacters.java  
 31. LongestNonRepeatingSubstring.java  
-
-
-

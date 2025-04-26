@@ -1,6 +1,6 @@
 public class VowelCounter {
     public static void main(String[] args) {
-        String word = "southAfrica";
+        String word = "Aman";
         System.out.println("Number of vowels in word is: " + countV(word));
     }
 
